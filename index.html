@@ -7,19 +7,38 @@
     <style>
         body {
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-direction: column;
+
+
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
+            background-color: #343333; /* Sets the background to dark grey */
         }
         h1 {
+
+            top: 20%;
             text-align: center;
+            color: white; /* Ensures the text is visible on a dark background */
+        }
+        h2, p, ul {
+            align-self: flex-start; /* Aligns content to the left */
+            margin-left: 20%; /* Adds a bit of padding from the edge */
+            color: white; /* Ensures text is visible on a dark background */
         }
     </style>
 </head>
 <body>
-    <h1>Gary and Hope suck.</h1>
+<h1>Gary and Hope suck.</h1>
+<div>
+    <h2>Now Hiring!</h2>
+    <p>Pokémon Card Expert</p>
+    <ul>
+        <li>Expert in Pokémon card values</li>
+        <li>Knowledgeable about card collections</li>
+        <li>Experienced in trading or selling cards</li>
+        <li>Gary and Hope need not apply.</li>
+    </ul>
+</div>
 </body>
 </html>
-
